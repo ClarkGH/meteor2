@@ -1,5 +1,7 @@
-<head>
-  <title>Tech & Self Improvement</title>
-</head>
-<body>
-</body>
+<template name="postsList">
+  <div class="entry-names">
+    {{#each posts}}
+      {{> postItem}}
+    {{/each}}
+  </div>
+</template>
