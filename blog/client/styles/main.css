@@ -1,0 +1,30 @@
+#navbar {
+  background-color: #260439;
+  color: #882E61;
+  margin-bottom: 0.5em;
+  -webkit-box-shadow: 1px 16px 26px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 1px 16px 26px 3px rgba(0,0,0,0.4);
+  box-shadow: 1px 16px 26px 3px rgba(0,0,0,0.4);
+}
+
+#navbar .fa:hover {
+  color: #641040;
+}
+
+#navbar a:link {
+  color: #882E61;
+}
+
+#navbar a:visited {
+  color: #882E61;
+}
+
+#navbar a:active {
+  color: #440127;
+}
+
+#navbar a:hover {
+  text-decoration: none;
+  color: #641040;
+
+}
