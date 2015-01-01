@@ -3,5 +3,28 @@
   <link rel="icon" href="/favicon.ico?v=2">
 </head>
 
+
 <body>
+  <div id="header">
+    <a href="/" class="fa fa-3x fa-home"></a>
+    <a href="https://github.com/ClarkGH" class="fa fa-3x fa-github"></a>
+    <a href="https://twitter.com/Demolisho" class="fa fa-3x fa-twitter"></a>
+    <a href="https://www.linkedin.com/pub/clark-hinchcliff/6/b27/887" class="fa fa-3x fa-linkedin"></a>
+  </div>
+
+  <div class="sidebar">
+  </div>
+
+  <div class="footer">
+
+  </div>
+
 </body>
+
+<template name="postsList">
+  <div class="entry-names">
+    {{#each posts}}
+      {{> postItem}}
+    {{/each}}
+  </div>
+</template>
