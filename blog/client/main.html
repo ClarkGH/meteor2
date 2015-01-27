@@ -13,15 +13,39 @@
   </div>
 
   <div id="sidebar">
-    <p>nationwide is on your side</p>
+    <p>Blog Titles Populate Here</p>
+    {{> posts }}
   </div>
 
   <div id="content">
-    <p></p>
+    <p>Content Populates Here</p>
+    {{> content }}
   </div>
 
   <div id="footer">
     <a href="http://batman.com" class="fa fa-3x fa-magic"></a>
+    <p>Other things populate here.</p>
   </div>
 </body>
 
+<template name="posts">
+
+  {{#each posts}}
+
+    {{title}}
+    <br>
+
+  {{/each}}
+
+</template>
+
+<template name="content">
+
+  {{#each content}}
+
+    {{content}}
+    <br>
+
+  {{/each}}
+
+</template>
