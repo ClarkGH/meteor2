@@ -1,0 +1,3 @@
+Template.content.helpers
+  content: ->
+    Content.find()
