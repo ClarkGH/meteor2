@@ -1,6 +1,6 @@
 body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  height: 200em;
+  height: 125em;
   font-size: 14px;
   color: #333;
 }
@@ -40,7 +40,7 @@ body {
 
 #content {
   background-color: #938B9E;
-  padding: 1em;
+  padding: 2em 1em 1em 22em;
   width: 100%;
   height: 100%;
 }
@@ -49,7 +49,7 @@ body {
   background-color: #403074;
   color: #040110;
   text-align: center;
-  padding: 1em;
+  padding: 2em 1em 1em 1em;
   height: 100%;
   width: 20em;
   float: left;
