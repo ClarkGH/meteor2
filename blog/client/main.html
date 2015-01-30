@@ -14,12 +14,11 @@
 
   <div id="sidebar">
     <p>Blog Titles Populate Here</p>
-    {{> posts }}
+    {{> listPosts }}
   </div>
 
   <div id="content">
-    <p>Content Populates Here</p>
-    {{> content }}
+    <p>Content Populates Here {{> postContent}}</p>
   </div>
 
   <div id="footer">
@@ -27,25 +26,3 @@
     <p>Other things populate here.</p>
   </div>
 </body>
-
-<template name="posts">
-
-  {{#each posts}}
-
-    {{title}}
-    <br>
-
-  {{/each}}
-
-</template>
-
-<template name="content">
-
-  {{#each content}}
-
-    {{content}}
-    <br>
-
-  {{/each}}
-
-</template>
