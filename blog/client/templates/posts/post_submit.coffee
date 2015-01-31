@@ -1,4 +1,6 @@
 Template.postSubmit.events
   'submit form': (e) ->
     e.preventDefault()
-    alert "This is preventing the default action"
+    title = $('#postTitle').val();
+    content = $('#postContent').val();
+    alert("#{title} #{content}")
