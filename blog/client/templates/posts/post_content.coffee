@@ -1,3 +1,5 @@
 Template.postContent.helpers
-  post: ->
-    Posts.find()
+  title: ->
+    "Title populates here"
+  content: ->
+    "Content populates here"
