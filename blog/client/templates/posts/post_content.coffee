@@ -1,3 +1,3 @@
 Template.postContent.helpers
-  posts: ->
+  post: ->
     Posts.find()
