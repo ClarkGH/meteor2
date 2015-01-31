@@ -1,7 +1,9 @@
 <template name="postContent">
 
   <div class="contentTitle text-center">
-    {{title}}
+    {{#each post}}
+      {{title}}
+    {{/each}}
   </div>
 
   {{content}}
