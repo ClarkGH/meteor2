@@ -10,4 +10,4 @@ Router.route '/',
 Router.route "/posts/:_id",
   name: "postPage"
   data: ->
-    Posts.findOne this.params._id
+    Posts.findOne @.params._id
