@@ -7,7 +7,10 @@ Router.configure
 Router.route '/',
   name: 'firstPostContent'
 
-Router.route "/posts/:_id",
+Router.route '/posts/:_id',
   name: "postPage"
   data: ->
     Posts.findOne @.params._id
+
+Router.route '/submit',
+  name: 'postSubmit'
