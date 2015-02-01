@@ -1,5 +1,5 @@
 Template.firstPostContent.helpers
   title: ->
-    "First post's title populates here"
+    "Link to the first blog on home"
   content: ->
     "First post's content populates here"

@@ -6,9 +6,9 @@
 
 meteor-platform
 insecure
-mizzao:bootstrap-3
 underscore
 coffeescript
 fortawesome:fontawesome
 iron:router
 sacha:spin
+mizzao:bootstrap-3
