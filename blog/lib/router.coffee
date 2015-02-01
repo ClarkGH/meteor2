@@ -7,3 +7,7 @@ Router.configure
 Router.route '/',
   name: 'firstPostContent'
 
+Router.route "/posts/:_id",
+  name: "postPage"
+  data: ->
+    Posts.findOne this.params._id
