@@ -1,3 +1,3 @@
-Template.listPosts.helpers
+Template.listTitles.helpers
   posts: ->
     Posts.find()

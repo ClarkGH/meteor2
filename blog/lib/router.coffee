@@ -1,4 +1,6 @@
 Router.configure
   layoutTemplate: 'layout'
 
-Router.route '/', {name: 'postContent'}
+Router.route '/',
+  name: 'firstPostContent'
+
