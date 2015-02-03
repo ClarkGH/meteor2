@@ -16,4 +16,7 @@ Router.route '/posts/:_id',
 Router.route '/submit',
   name: 'postSubmit'
 
+Router.route '/adminLogin',
+  name: 'adminLogin'
+
 Router.onBeforeAction('dataNotFound', {only: 'postPage'});
